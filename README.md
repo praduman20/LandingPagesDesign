@@ -4,7 +4,7 @@ This repository is a collection of beautifully designed landing pages projects c
 ## Landing pages list with live demo link - 
 
 1. Landing Page 1 -
-   * Live demo -
+   * Live demo - https://camp-it-here.netlify.app/
 
 ## Getting Started
 
