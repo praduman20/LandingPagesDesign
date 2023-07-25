@@ -5,6 +5,8 @@ This repository is a collection of beautifully designed landing pages projects c
 
 1. Landing Page 1 -
    * Live demo - https://camp-it-here.netlify.app/
+2. Landing Page 2 -
+   * Live demo - https://drink-it-up.netlify.app/
 
 ## Getting Started
 
