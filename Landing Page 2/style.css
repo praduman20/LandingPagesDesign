@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:ital,wght@0,200;0,600;0,900;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrap {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #f4f2ec;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  color: #555555;
+  padding: 0 50px;
+}
+
+.navbar .logo {
+  margin-right: 100px;
+  font-size: 17px;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.navbar .categories {
+  margin-right: auto;
+  position: relative;
+  right: -400px;
+  cursor: pointer;
+}
+
+.navbar .categories ul li {
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.navbar .menu {
+  margin-right: -10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.stripe {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  bottom: 43%;
+  background: linear-gradient(to left, #ee4540, #c0342f);
+  overflow: hidden;
+}
+
+.stripe h2 {
+  font-family: "Josefin", sans-serif;
+  color: #f4f2ec;
+  font-weight: 700;
+  font-size: 75px;
+}
+
+.coke {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  z-index: 1;
+  height: 100%;
+}
+
+.coke img {
+  transform: translate(-50%, -50%);
+  height: 75%;
+}
+
+.small-coke {
+  position: absolute;
+  left: 70%;
+  bottom: 7%;
+  transform: translateX(-50%);
+  display: flex;
+  z-index: 1;
+}
+
+.small-coke li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 -50px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.small-coke li:hover {
+  transform: translateY(-10px);
+}
+
+.small-coke li img {
+  max-width: 250px;
+}
+
+.text {
+  position: absolute;
+  width: 50%;
+  top: 23.5%;
+  left: 35%;
+  height: 50%;
+}
+
+.text h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #555555;
+  position: relative;
+  overflow: hidden;
+  height: 150px;
+  width: 900px;
+  top: 31%;
+}
+
+.text h1 .header {
+  position: absolute;
+  left: 2%;
+}
+
+.media {
+  position: absolute;
+  bottom: 200px;
+  left: 40px;
+}
+
+.media ul {
+  position: absolute;
+  list-style: none;
+}
+
+.media ul li {
+  color: #555555;
+  padding: 10px 0px;
+}
+
+@media screen and (max-width: 1220px) {
+  .text {
+    display: none;
+  }
+  .coke img {
+    max-height: 600px;
+  }
+  .categories {
+    display: none;
+  }
+  .media ul {
+    bottom: -200px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .stripe h2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .small-coke {
+    flex-direction: column;
+  }
+}

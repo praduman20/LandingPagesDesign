@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fizzy drinks</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <nav class="navbar">
+        <div class="logo">CocoCola</div>
+        <div class="categories">
+          <ul>
+            <li>Originals</li>
+            <li>Zero</li>
+          </ul>
+        </div>
+        <div class="menu">
+          <ion-icon name="ios-menu"></ion-icon>
+        </div>
+      </nav>
+
+      <div class="stripe"><h2>Coke</h2></div>
+
+      <div class="coke">
+        <img src="./images/coke-one.png" alt="image1" class="coke-can" />
+      </div>
+
+      <div class="small-coke">
+        <li>
+          <img
+            src="./images/coke-one.png"
+            onclick="imgSlider('./images/coke-one.png')"
+            alt="Image1"
+          />
+        </li>
+        <li>
+          <img
+            src="./images/coke-two.png"
+            onclick="imgSlider('./images/coke-two.png')"
+            alt="Image2"
+          />
+        </li>
+      </div>
+
+      <div class="text">
+        <h1>
+          <span class="header">start from</span>
+        </h1>
+      </div>
+
+      <div class="media">
+        <ul>
+          <li><ion-icon name="logo-facebook"></ion-icon></li>
+          <li><ion-icon name="logo-snapchat"></ion-icon></li>
+          <li><ion-icon name="logo-instagram"></ion-icon></li>
+          <li><ion-icon name="logo-youtube"></ion-icon></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+  <script src="gsap.min.js"></script>
+  <script src="index.js"></script>
+</html>
