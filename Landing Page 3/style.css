@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(113, 98, 98);
+  background: radial-gradient(
+    circle,
+    rgba(113, 98, 98, 1) 31%,
+    rgba(240, 235, 238, 1) 92%
+  );
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  max-width: 100%;
+  height: 3.5rem;
+  box-sizing: border-box;
+}
+
+.nav-logo img {
+  height: 9vh;
+  width: 15vw;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  margin-inline: 5vw;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3vh;
+}
+
+.nav-menu {
+  width: 60%;
+}
+
+.nav-menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.nav-menu ul li {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-menu ul li:hover {
+  color: rgb(113, 98, 98);
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(113, 98, 98);
+  color: white;
+  font-size: 18px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.main {
+  overflow: hidden;
+  height: 90vh;
+}
+
+.home {
+  position: relative;
+  display: flex;
+  height: 90%;
+  justify-content: center;
+  align-items: center;
+}
+
+.shoe-image {
+  height: 60vh;
+  width: 40vw;
+  transform: rotate(-35deg);
+  position: absolute;
+  z-index: 1;
+  left: 26vw;
+  bottom: 15vh;
+}
+
+.heading-one {
+  font-size: 200px;
+  position: absolute;
+  z-index: -1;
+  left: 29.5vw;
+  font-weight: 400;
+}
+
+.heading-two {
+  font-size: 200px;
+  position: absolute;
+  z-index: 2;
+  right: 24vw;
+  color: rgba(255, 255, 255, 0.1);
+  text-decoration: solid;
+  -webkit-text-stroke-width: 5px;
+  -webkit-text-stroke-color: black;
+  font-weight: 500;
+}
+
+.info {
+  position: absolute;
+  bottom: 6vh;
+  left: 2vw;
+}
+
+.info h2 {
+  font-size: 40px;
+}
+
+.info p {
+  font-size: 20px;
+  color: rgb(113, 98, 98);
+}
+
+@media screen and (max-width: 1100px) {
+  .heading-one {
+    left: 22vw;
+  }
+  .heading-two {
+    right: 18vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .info h2 {
+    font-size: 30px;
+  }
+  .info p {
+    font-size: 12px;
+  }
+  .btn {
+    display: none;
+  }
+  .heading-one {
+    left: 10vw;
+    font-size: 100px;
+  }
+  .heading-two {
+    right: 35vw;
+    font-size: 100px;
+  }
+  .shoe-image {
+    height: 100vh;
+    width: 100vw;
+    left: 4vw;
+    bottom: 5vh;
+  }
+  .home {
+    text-align: center;
+  }
+  .nav-menu ul li {
+    padding: 0 12px;
+  }
+  .nav-menu ul li:nth-child(4) {
+    display: none;
+  }
+  .nav-logo img {
+    height: 5vh;
+  }
+}
