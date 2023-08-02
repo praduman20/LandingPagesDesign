@@ -1,16 +1,17 @@
 # Landing Pages Design Projects with HTML, CSS, JS and other JS toolsets
+
 This repository is a collection of beautifully designed landing pages projects created using HTML, CSS, and JavaScript, along with various other popular JavaScript toolsets. The landing pages included in this repository are carefully crafted with responsiveness, and user experience in mind. Each page demonstrates the effective use of CSS animations, responsive layouts, and seamless integration of JavaScript functionalities to enhance user engagement.
 
-## Landing pages list with live demo link - 
+## Landing pages list with live demo link -
 
 1. Landing Page 1 -
-   * Live demo - https://camp-it-here.netlify.app/
+   - Live demo - https://camp-it-here.netlify.app/
 2. Landing Page 2 -
-   * Live demo - https://drink-it-up.netlify.app/
+   - Live demo - https://drink-it-up.netlify.app/
 3. Landing Page 3 -
-   * Live demo - https://sneakers-page-design.netlify.app/
+   - Live demo - https://sneakers-page-design.netlify.app/
 4. Landing Page 4 -
-   * Live demo - https://mytravelco.netlify.app/
+   - Live demo - https://mytravelco.netlify.app/
 
 ## Getting Started
 
