@@ -12,6 +12,8 @@ This repository is a collection of beautifully designed landing pages projects c
    - Live demo - https://sneakers-page-design.netlify.app/
 4. Landing Page 4 -
    - Live demo - https://mytravelco.netlify.app/
+5. Landing Page 5 -
+   - Live demo - https://parallaxeffect-site.netlify.app/
 
 ## Getting Started
 
