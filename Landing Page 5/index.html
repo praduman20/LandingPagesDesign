@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Effect</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">Logo</h2>
+      <nav class="navigation">
+        <a href="#" class="active">Home</a><a href="#">About</a
+        ><a href="#">Service</a><a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <section class="parallax">
+      <img src="./images/hill1.png" id="hill1" />
+      <img src="./images/hill2.png" id="hill2" />
+      <img src="./images/hill3.png" id="hill3" />
+      <img src="./images/hill4.png" id="hill4" />
+      <img src="./images/hill5.png" id="hill5" />
+      <img src="./images/tree.png" id="tree" />
+      <h2 id="text">Parallax website</h2>
+      <img src="./images/leaf.png" id="leaf" />
+      <img src="./images/plant.png" id="plant" />
+    </section>
+
+    <section class="sec">
+      <h2>Parallax scrolling website</h2>
+      <p>
+        A parallax website is a captivating design technique that creates an
+        illusion of depth and motion by having different elements on a webpage
+        move at varying speeds as the user scrolls. This dynamic effect gives
+        the website a visually engaging and interactive feel, enhancing user
+        experience and making the content more memorable. Parallax scrolling is
+        achieved by layering multiple images or sections on the webpage, each
+        with a distinct speed of movement, creating a sense of depth and
+        immersion. As the user scrolls, the foreground and background elements
+        move at different rates, producing a captivating 3D-like effect that
+        adds an extra dimension to the website's storytelling and aesthetics.
+        <br /><br />
+        To achieve the parallax effect using Vanilla JavaScript, you can listen
+        for the 'scroll' event and manipulate the position of the different
+        layers based on the scroll position. This involves calculating the
+        scroll percentage and applying corresponding translations to the layers.
+        By adjusting the CSS properties of the layers, such as 'transform' and
+        'background-position', you can create the illusion of depth and
+        movement. In React, you can follow a similar approach by utilizing state
+        and useEffect to update the layer positions when the user scrolls.
+        Additionally, libraries like 'react-scroll-parallax' or 'react-parallax'
+        can simplify the implementation by providing pre-built components that
+        handle the parallax effect. <br /><br />
+        When implementing a parallax website, it's essential to strike a balance
+        between aesthetics and usability. While the parallax effect can enhance
+        visual appeal, excessive or overly complex parallax scrolling can lead
+        to slower page loading times and potential usability issues on mobile
+        devices. Therefore, it's crucial to optimize images, use lazy loading
+        for large assets, and consider the overall performance impact of the
+        parallax animations. Moreover, the content and storytelling on the
+        website should align with the parallax effect, creating a seamless and
+        engaging user journey. By carefully designing the layers and considering
+        the pace of scrolling, a parallax website can effectively communicate
+        the desired message or narrative while providing an immersive and
+        memorable browsing experience.
+      </p>
+    </section>
+  </body>
+  <script src="index.js"></script>
+</html>
