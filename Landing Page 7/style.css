@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  width: 100%;
+  min-width: 100vh;
+}
+
+#top {
+  width: 100%;
+  min-height: 60vh;
+  background-image: url(./images/top.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#nav {
+  display: flex;
+  min-height: 10vh;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.281);
+  padding: 5vh 9vw;
+}
+
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  cursor: pointer;
+}
+
+#nav_icon {
+  font-size: 30px;
+  color: white;
+}
+
+#nav_icon i {
+  padding: 0 1vw;
+  cursor: pointer;
+}
+
+#overlay {
+  width: 100%;
+  min-height: 50vh;
+  background-color: rgba(0, 0, 0, 0.281);
+  position: relative;
+}
+
+#text {
+  width: 100%;
+  padding: 0 10vw;
+  position: absolute;
+  bottom: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#text h1 {
+  font-size: 6vw;
+  color: white;
+  font-weight: 500;
+}
+
+#textright {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#textright p {
+  font-size: 15px;
+  width: 40%;
+  color: white;
+}
+
+#textright i {
+  color: white;
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+#bottom {
+  min-height: 40vh;
+  display: flex;
+  width: 100%;
+  background-color: blue;
+}
+
+#bone {
+  padding: 50px;
+  width: 25%;
+  min-height: inherit;
+  background-color: #ffffff;
+}
+
+#bone h1 {
+  font-size: 3vw;
+}
+
+#arrow {
+  margin-top: 5vh;
+}
+
+#arrow i {
+  font-size: 2vw;
+  background-color: #ebebeb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#arrow i:nth-child(1) {
+  margin-right: 5px;
+}
+
+#bone p {
+  font-size: 3vw;
+  margin-top: 20px;
+}
+
+#btwo {
+  width: 25%;
+  min-height: inherit;
+  background-image: url(./images/btwo.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btwo i {
+  font-size: 5vw;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+#bthree {
+  width: 20%;
+  min-height: inherit;
+  background-color: brown;
+}
+
+#bthreetop {
+  width: 100%;
+  min-height: 20vh;
+  background-color: orangered;
+  padding: 20px;
+  color: white;
+}
+
+#bthreetop h2 {
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+#bthreetop p {
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#bthreebottom {
+  width: 100%;
+  min-height: 20vh;
+  background-image: url(./images/bthree.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#bfour {
+  width: 30%;
+  min-height: inherit;
+  background-color: #444;
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#bfour i {
+  margin-top: 4vh;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.notf {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notf #photo {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: orangered;
+}
+
+.notf p {
+  width: 86%;
+  font-size: 18px;
+}
+
+@media (max-width: 500px) {
+  #overlay #text {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #text h1 {
+    font-size: 10vw;
+  }
+  #overlay #text #textright {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  #overlay #text #textright p {
+    width: initial;
+    margin-top: 20px;
+  }
+  #overlay #text #textright #icons {
+    margin-top: 30px;
+  }
+  #bottom {
+    flex-direction: column;
+    min-height: 20vh;
+  }
+  #bone {
+    width: 100%;
+  }
+  #btwo {
+    width: 100%;
+    min-height: 40vh;
+  }
+  #bthree {
+    width: 100%;
+    flex-direction: column;
+  }
+  #bfour {
+    width: 100%;
+  }
+}
