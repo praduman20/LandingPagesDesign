@@ -16,6 +16,8 @@ This repository is a collection of beautifully designed landing pages projects c
    - Live demo - https://parallaxeffect-site.netlify.app/
 6. Landing Page 6 -
    - Live demo - https://coffeefresh.netlify.app/
+7. Landing Page 7 -
+   - Live demo - https://mynews-fenix.netlify.app/
 
 ## Getting Started
 
