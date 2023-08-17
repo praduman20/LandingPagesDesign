@@ -18,6 +18,8 @@ This repository is a collection of beautifully designed landing pages projects c
    - Live demo - https://coffeefresh.netlify.app/
 7. Landing Page 7 -
    - Live demo - https://mynews-fenix.netlify.app/
+8. Landing Pae 8 -
+   - Live demo - https://brandwear.netlify.app/
 
 ## Getting Started
 
