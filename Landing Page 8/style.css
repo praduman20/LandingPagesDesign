@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#nav {
+  padding: 0 8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2vh;
+  font-size: 20px;
+}
+
+#nav .logo {
+  padding-right: 10vw;
+  color: #faf1d2;
+  cursor: pointer;
+  filter: brightness(0.9);
+}
+
+#nav i {
+  cursor: pointer;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main img {
+  height: 640px;
+  width: 510px;
+  position: relative;
+  z-index: 99;
+  object-fit: cover;
+}
+
+#scroll-div {
+  position: absolute;
+  top: 24%;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#scroll-div::-webkit-scrollbar {
+  display: none;
+}
+
+#scroll-div h1 {
+  display: inline-block;
+  font-size: 140px;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 30px;
+  letter-spacing: 4px;
+  animation: scroll 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(calc(-100% - 32px));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#scroll-div2 {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  z-index: 100;
+}
+
+#scroll-div2::-webkit-scrollbar {
+  display: none;
+}
+
+#scroll-div2 h1 {
+  display: inline-block;
+  font-size: 140px;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 30px;
+  letter-spacing: 4px;
+  color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #000;
+  animation: scroll 1s infinite;
+  animation-timing-function: linear;
+}
+
+#scroll-div3 {
+  position: absolute;
+  top: 64%;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+#scroll-div3::-webkit-scrollbar {
+  display: none;
+}
+
+#scroll-div3 h1 {
+  display: inline-block;
+  font-size: 140px;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 30px;
+  letter-spacing: 4px;
+  animation: scrollr 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes scrollr {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% - 32px));
+  }
+}
+
+#text {
+  position: absolute;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  width: 60%;
+  z-index: 999;
+  top: 15%;
+  text-align: center;
+  text-transform: uppercase;
+  right: 20%;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 1070px) {
+  #text {
+    font-size: 18px;
+    top: 5%;
+    text-align: center;
+    background-color: linear-gradient(#faf1d2, #9198e5);
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  #main img {
+    height: 70vh;
+    width: 80vw;
+  }
+
+  #nav {
+    font-size: 18px;
+  }
+
+  #nav p {
+    display: none;
+  }
+
+  #scroll-div h1 {
+    font-size: 100px;
+  }
+
+  #scroll-div2 h1 {
+    font-size: 100px;
+  }
+
+  #scroll-div3 h1 {
+    font-size: 100px;
+  }
+}
