@@ -20,6 +20,8 @@ This repository is a collection of beautifully designed landing pages projects c
    - Live demo - https://mynews-fenix.netlify.app/
 8. Landing Page 8 -
    - Live demo - https://brandwear.netlify.app/
+9. Landing Page 9 -
+   - Live demo - https://mynetflixlandingpage.netlify.app/
 
 ## Getting Started
 
