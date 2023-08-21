@@ -22,6 +22,8 @@ This repository is a collection of beautifully designed landing pages projects c
    - Live demo - https://brandwear.netlify.app/
 9. Landing Page 9 -
    - Live demo - https://mynetflixlandingpage.netlify.app/
+10. Landing Page 10 -
+   - Live demo - https://sneakertown.netlify.app/
 
 ## Getting Started
 
